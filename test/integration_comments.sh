@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+if ! grep -RslE 'giscus-comments|disqus-comments' _posts >/dev/null 2>&1; then
+  echo "comments fixtures absent; skipping comments integration test"
+  exit 0
+fi
+
 tmp_dir="$(mktemp -d)"
 tmp_override="${tmp_dir}/comments-test-override.yml"
 tmp_site="${tmp_dir}/site"
