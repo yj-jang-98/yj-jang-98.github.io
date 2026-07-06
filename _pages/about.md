@@ -23,7 +23,10 @@ latest_posts:
   limit: 0
 ---
 
-I am a Ph.D. student in the Control and Dynamic Systems Lab at Seoul National University, advised by Professor Hyungbo Shim. My research focuses on secure and privacy-preserving control, learning-based control with guarantees, and stochastic optimal control under uncertainty.
+I am a Ph.D. student in the Control and Dynamic Systems Lab at Seoul National University,
+advised by Professor Hyungbo Shim. My research focuses on secure and
+privacy-preserving control, learning-based control with guarantees, and
+stochastic optimal control under uncertainty.
 
 ## Overview
 
@@ -40,16 +43,124 @@ I am a Ph.D. student in the Control and Dynamic Systems Lab at Seoul National Un
 
 ## Selected Work
 
-1. Co-Design of Cryptographic Parameters and Delay-Aware Feedback Gain for Encrypted Control Systems (2026)
-   <https://arxiv.org/abs/2604.14774>
-2. A Distributionally Robust Optimal Control Approach for Differentially Private Dynamical Systems (2026)
-   <https://arxiv.org/abs/2603.18364>
-3. Inverse Learning-Based Output Feedback Control of Nonlinear Systems with Verifiable Guarantees (2026)
-   <https://arxiv.org/abs/2603.10292>
-4. Privacy-Preserving Fully Distributed Gaussian Process Regression (2025)
-   <https://arxiv.org/abs/2512.05473>
-5. Documentation on Encrypted Dynamic Control Simulation Code using Ring-LWE based Cryptosystems (2025)
-   <https://arxiv.org/abs/2504.13403>
+<div
+  style="
+    max-height: 25rem;
+    overflow-y: auto;
+    display: grid;
+    gap: 0.9rem;
+    padding-right: 0.35rem;
+  "
+>
+  <article style="border: 1px solid rgba(15, 23, 42, 0.1); border-radius: 18px; padding: 1rem 1.1rem;">
+    <div style="display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 0.7rem;">
+      <span
+        style="padding: 0.16rem 0.55rem; border-radius: 999px; background: rgba(8, 145, 178, 0.12); font-size: 0.8rem;"
+      >
+        arXiv 2026
+      </span>
+      <span
+        style="padding: 0.16rem 0.55rem; border-radius: 999px; background: rgba(15, 23, 42, 0.08); font-size: 0.8rem;"
+      >
+        Encrypted Control
+      </span>
+    </div>
+    <strong>Co-Design of Cryptographic Parameters and Delay-Aware Feedback Gain for Encrypted Control Systems</strong
+    ><br />
+    <a href="https://arxiv.org/abs/2604.14774">Read on arXiv</a>
+  </article>
+
+  <article style="border: 1px solid rgba(15, 23, 42, 0.1); border-radius: 18px; padding: 1rem 1.1rem;">
+    <div style="display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 0.7rem;">
+      <span
+        style="padding: 0.16rem 0.55rem; border-radius: 999px; background: rgba(8, 145, 178, 0.12); font-size: 0.8rem;"
+      >
+        arXiv 2026
+      </span>
+      <span
+        style="padding: 0.16rem 0.55rem; border-radius: 999px; background: rgba(15, 23, 42, 0.08); font-size: 0.8rem;"
+      >
+        Differential Privacy
+      </span>
+      <span
+        style="padding: 0.16rem 0.55rem; border-radius: 999px; background: rgba(15, 23, 42, 0.08); font-size: 0.8rem;"
+      >
+        Robust Control
+      </span>
+    </div>
+    <strong>A Distributionally Robust Optimal Control Approach for Differentially Private Dynamical Systems</strong
+    ><br />
+    <a href="https://arxiv.org/abs/2603.18364">Read on arXiv</a>
+  </article>
+
+  <article style="border: 1px solid rgba(15, 23, 42, 0.1); border-radius: 18px; padding: 1rem 1.1rem;">
+    <div style="display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 0.7rem;">
+      <span
+        style="padding: 0.16rem 0.55rem; border-radius: 999px; background: rgba(8, 145, 178, 0.12); font-size: 0.8rem;"
+      >
+        arXiv 2026
+      </span>
+      <span
+        style="padding: 0.16rem 0.55rem; border-radius: 999px; background: rgba(15, 23, 42, 0.08); font-size: 0.8rem;"
+      >
+        Learning-Based Control
+      </span>
+      <span
+        style="padding: 0.16rem 0.55rem; border-radius: 999px; background: rgba(15, 23, 42, 0.08); font-size: 0.8rem;"
+      >
+        Output Feedback
+      </span>
+    </div>
+    <strong>Inverse Learning-Based Output Feedback Control of Nonlinear Systems with Verifiable Guarantees</strong
+    ><br />
+    <a href="https://arxiv.org/abs/2603.10292">Read on arXiv</a>
+  </article>
+
+  <article style="border: 1px solid rgba(15, 23, 42, 0.1); border-radius: 18px; padding: 1rem 1.1rem;">
+    <div style="display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 0.7rem;">
+      <span
+        style="padding: 0.16rem 0.55rem; border-radius: 999px; background: rgba(8, 145, 178, 0.12); font-size: 0.8rem;"
+      >
+        arXiv 2025
+      </span>
+      <span
+        style="padding: 0.16rem 0.55rem; border-radius: 999px; background: rgba(15, 23, 42, 0.08); font-size: 0.8rem;"
+      >
+        Privacy-Preserving Learning
+      </span>
+      <span
+        style="padding: 0.16rem 0.55rem; border-radius: 999px; background: rgba(15, 23, 42, 0.08); font-size: 0.8rem;"
+      >
+        Distributed GPR
+      </span>
+    </div>
+    <strong>Privacy-Preserving Fully Distributed Gaussian Process Regression</strong><br />
+    <a href="https://arxiv.org/abs/2512.05473">Read on arXiv</a>
+  </article>
+
+  <article style="border: 1px solid rgba(15, 23, 42, 0.1); border-radius: 18px; padding: 1rem 1.1rem;">
+    <div style="display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 0.7rem;">
+      <span
+        style="padding: 0.16rem 0.55rem; border-radius: 999px; background: rgba(8, 145, 178, 0.12); font-size: 0.8rem;"
+      >
+        arXiv 2025
+      </span>
+      <span
+        style="padding: 0.16rem 0.55rem; border-radius: 999px; background: rgba(15, 23, 42, 0.08); font-size: 0.8rem;"
+      >
+        Software Note
+      </span>
+      <span
+        style="padding: 0.16rem 0.55rem; border-radius: 999px; background: rgba(15, 23, 42, 0.08); font-size: 0.8rem;"
+      >
+        Encrypted Control
+      </span>
+    </div>
+    <strong>Documentation on Encrypted Dynamic Control Simulation Code using Ring-LWE based Cryptosystems</strong
+    ><br />
+    <a href="https://arxiv.org/abs/2504.13403">Read on arXiv</a>
+  </article>
+</div>
 
 ## Contact
 
