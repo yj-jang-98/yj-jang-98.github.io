@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+if ! grep -Rsl 'distill' _posts >/dev/null 2>&1; then
+  echo "distill fixtures absent; skipping distill integration test"
+  exit 0
+fi
+
 tmp_dir="$(mktemp -d)"
 tmp_override="${tmp_dir}/distill-override.yml"
 tmp_site="${tmp_dir}/site"
