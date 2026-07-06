@@ -74,7 +74,7 @@ stochastic optimal control under uncertainty.
     News
   </a>
   <a
-    href="/news/"
+    href="{{ '/news/' | relative_url }}"
     style="
       padding: 0.35rem 0.8rem;
       border-radius: 999px;
@@ -86,7 +86,9 @@ stochastic optimal control under uncertainty.
   </a>
 </div>
 
-## Overview {#overview}
+<div id="overview"></div>
+
+## Overview
 
 - Affiliation: Control and Dynamic Systems Lab, Seoul National University
 - Email: [jangyj0512@snu.ac.kr](mailto:jangyj0512@snu.ac.kr)
@@ -99,7 +101,9 @@ stochastic optimal control under uncertainty.
 - Privacy-preserving dynamical systems and robust optimization under distributional uncertainty
 - Learning-based output feedback control with explicit verifiability and performance guarantees
 
-## Education {#education}
+<div id="education"></div>
+
+## Education
 
 <div style="display: grid; gap: 0.9rem; margin: 0.8rem 0 1.6rem 0;">
   <article style="border: 1px solid rgba(15, 23, 42, 0.1); border-radius: 18px; padding: 1rem 1.1rem;">
@@ -112,7 +116,9 @@ stochastic optimal control under uncertainty.
   </article>
 </div>
 
-## Selected Publications {#selected-publications}
+<div id="selected-publications"></div>
+
+## Selected Publications
 
 <div
   style="
@@ -248,9 +254,11 @@ stochastic optimal control under uncertainty.
   </article>
 </div>
 
-## News {#news}
+<div id="news"></div>
 
-Recent updates are shown in the news panel above. Visit the [full news page](/news/) for the complete list.
+## News
+
+Recent updates are shown in the news panel above. Visit the [full news page]({{ '/news/' | relative_url }}) for the complete list.
 
 ## Contact
 
