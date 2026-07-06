@@ -13,9 +13,9 @@ selected_papers: false
 social: false
 
 announcements:
-  enabled: false
-  scrollable: false
-  limit: 0
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: false
@@ -28,7 +28,65 @@ advised by Professor Hyungbo Shim. My research focuses on secure and
 privacy-preserving control, learning-based control with guarantees, and
 stochastic optimal control under uncertainty.
 
-## Overview
+<div style="display: flex; flex-wrap: wrap; gap: 0.55rem; margin: 1.2rem 0 1.6rem 0;">
+  <a
+    href="#overview"
+    style="
+      padding: 0.35rem 0.8rem;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.08);
+      text-decoration: none;
+    "
+  >
+    Overview
+  </a>
+  <a
+    href="#education"
+    style="
+      padding: 0.35rem 0.8rem;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.08);
+      text-decoration: none;
+    "
+  >
+    Education
+  </a>
+  <a
+    href="#selected-publications"
+    style="
+      padding: 0.35rem 0.8rem;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.08);
+      text-decoration: none;
+    "
+  >
+    Publications
+  </a>
+  <a
+    href="#news"
+    style="
+      padding: 0.35rem 0.8rem;
+      border-radius: 999px;
+      background: rgba(15, 23, 42, 0.08);
+      text-decoration: none;
+    "
+  >
+    News
+  </a>
+  <a
+    href="/news/"
+    style="
+      padding: 0.35rem 0.8rem;
+      border-radius: 999px;
+      background: rgba(8, 145, 178, 0.12);
+      text-decoration: none;
+    "
+  >
+    All News
+  </a>
+</div>
+
+## Overview {#overview}
 
 - Affiliation: Control and Dynamic Systems Lab, Seoul National University
 - Email: [jangyj0512@snu.ac.kr](mailto:jangyj0512@snu.ac.kr)
@@ -41,7 +99,20 @@ stochastic optimal control under uncertainty.
 - Privacy-preserving dynamical systems and robust optimization under distributional uncertainty
 - Learning-based output feedback control with explicit verifiability and performance guarantees
 
-## Selected Work
+## Education {#education}
+
+<div style="display: grid; gap: 0.9rem; margin: 0.8rem 0 1.6rem 0;">
+  <article style="border: 1px solid rgba(15, 23, 42, 0.1); border-radius: 18px; padding: 1rem 1.1rem;">
+    <div style="display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap;">
+      <strong>Seoul National University</strong>
+      <span style="opacity: 0.72;">Ph.D., Electrical and Computer Engineering</span>
+    </div>
+    <div style="margin-top: 0.4rem; opacity: 0.8;">Control and Dynamic Systems Lab</div>
+    <div style="margin-top: 0.55rem;">Research areas: secure control, privacy-preserving control, and learning-based control with guarantees.</div>
+  </article>
+</div>
+
+## Selected Publications {#selected-publications}
 
 <div
   style="
@@ -67,6 +138,9 @@ stochastic optimal control under uncertainty.
     </div>
     <strong>Co-Design of Cryptographic Parameters and Delay-Aware Feedback Gain for Encrypted Control Systems</strong
     ><br />
+    <div style="margin: 0.45rem 0 0.55rem 0; line-height: 1.7;">
+      <span style="font-weight: 700; color: rgb(8, 145, 178);">Yeongjun Jang</span>, collaborators
+    </div>
     <a href="https://arxiv.org/abs/2604.14774">Read on arXiv</a>
   </article>
 
@@ -90,6 +164,9 @@ stochastic optimal control under uncertainty.
     </div>
     <strong>A Distributionally Robust Optimal Control Approach for Differentially Private Dynamical Systems</strong
     ><br />
+    <div style="margin: 0.45rem 0 0.55rem 0; line-height: 1.7;">
+      <span style="font-weight: 700; color: rgb(8, 145, 178);">Yeongjun Jang</span>, collaborators
+    </div>
     <a href="https://arxiv.org/abs/2603.18364">Read on arXiv</a>
   </article>
 
@@ -113,6 +190,9 @@ stochastic optimal control under uncertainty.
     </div>
     <strong>Inverse Learning-Based Output Feedback Control of Nonlinear Systems with Verifiable Guarantees</strong
     ><br />
+    <div style="margin: 0.45rem 0 0.55rem 0; line-height: 1.7;">
+      <span style="font-weight: 700; color: rgb(8, 145, 178);">Yeongjun Jang</span>, collaborators
+    </div>
     <a href="https://arxiv.org/abs/2603.10292">Read on arXiv</a>
   </article>
 
@@ -135,6 +215,9 @@ stochastic optimal control under uncertainty.
       </span>
     </div>
     <strong>Privacy-Preserving Fully Distributed Gaussian Process Regression</strong><br />
+    <div style="margin: 0.45rem 0 0.55rem 0; line-height: 1.7;">
+      <span style="font-weight: 700; color: rgb(8, 145, 178);">Yeongjun Jang</span>, collaborators
+    </div>
     <a href="https://arxiv.org/abs/2512.05473">Read on arXiv</a>
   </article>
 
@@ -158,9 +241,16 @@ stochastic optimal control under uncertainty.
     </div>
     <strong>Documentation on Encrypted Dynamic Control Simulation Code using Ring-LWE based Cryptosystems</strong
     ><br />
+    <div style="margin: 0.45rem 0 0.55rem 0; line-height: 1.7;">
+      <span style="font-weight: 700; color: rgb(8, 145, 178);">Yeongjun Jang</span>, collaborators
+    </div>
     <a href="https://arxiv.org/abs/2504.13403">Read on arXiv</a>
   </article>
 </div>
+
+## News {#news}
+
+Recent updates are shown in the news panel above. Visit the [full news page](/news/) for the complete list.
 
 ## Contact
 
